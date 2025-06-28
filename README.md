@@ -146,9 +146,7 @@ ORDER BY S.Student_id, C.Course_name DESC;
   ORDER BY total_enrollments DESC
   LIMIT 4;
 
-```
 
-```
 ---
 - Which department has the least number of students
   ```
@@ -219,6 +217,24 @@ SELECT Gender,
        total_enrollments
 FROM course_per_gender
 WHERE gender_rank = 1;
+
+```
+---
+## Insights
+- Fishery has the least number of students  only 1 student enrolled.
+- Some students are not enrolled in any course despite being registered.
+- Mass Communication and Data Analysis have the highest student population.
+-Each student takes an average of about 2 courses.
+- Some departments have low visibility or engagement compared to others
+
+  ---
+## Recommendations
+- Promote low-enrollment departments like Fishery through orientation, better course marketing, or curriculum review.
+- Investigate why some students aren't enrolled in any course,  check for registration errors or lack of follow-up after admission.
+- Balance course allocation among available instructors to prevent burnout.
+- Ensure adequate resources (lecture halls, materials, instructors) for high-demand courses.
+- Track student course load patterns to identify trends and improve curriculum planning.
+- Strengthen academic advising to guide students in selecting the right number and type of courses.
 
 
 
