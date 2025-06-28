@@ -235,6 +235,7 @@ WHERE gender_rank = 1;
 - Ensure adequate resources (lecture halls, materials, instructors) for high-demand courses.
 - Track student course load patterns to identify trends and improve curriculum planning.
 - Strengthen academic advising to guide students in selecting the right number and type of courses.
+  
 
 
 
